@@ -8,7 +8,7 @@ function App() {
 
   useEffect(() => {
     const newSocket = new WebSocket('ws://localhost:8080');
-
+    
     newSocket.onopen = () => {
       console.log('Connection established');
       newSocket.send('Hello Server!');
