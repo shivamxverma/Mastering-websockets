@@ -1,0 +1,30 @@
+{
+  "name": "mastering-websockets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivamxverma/Mastering-websockets.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivamxverma/Mastering-websockets/issues"
+  },
+  "homepage": "https://github.com/shivamxverma/Mastering-websockets#readme",
+  "dependencies": {
+    "@types/ws": "^8.5.14",
+    "websocket": "^1.0.35",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/websocket": "^1.0.10",
+    "ts-node": "^10.9.2"
+  }
+}
