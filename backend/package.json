@@ -19,6 +19,7 @@
   "homepage": "https://github.com/shivamxverma/Mastering-websockets#readme",
   "dependencies": {
     "@types/ws": "^8.5.14",
+    "axios": "^1.7.9",
     "websocket": "^1.0.35",
     "ws": "^8.18.0"
   },

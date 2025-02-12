@@ -29,7 +29,7 @@ wss.on('connection', function connection(ws) {
         console.log('Client disconnected');
     });
 
-    ws.send('Hello! Message From Server!!');
+    // ws.send('Hello! Message From Server!!');
 });
 
 server.listen(8080, function() {
